@@ -29,7 +29,7 @@ export default function Login() {
         </div>
 
         {/* Title */}
-        <h1 className="text-2xl font-bold text-gray-900 text-center mb-1">Masuk ke CreatorLens AI</h1>
+        <h1 className="text-2xl font-bold text-gray-900 text-center mb-1">Masuk ke KREASIA</h1>
         <p className="text-sm text-gray-500 text-center mb-8">Lanjutkan perjalanan konten Anda dengan AI</p>
 
         <form onSubmit={handleLogin} className="space-y-5">
@@ -141,7 +141,7 @@ export default function Login() {
 
       {/* Footer */}
       <div className="mt-8 text-center">
-        <p className="text-xs text-gray-400 mb-2">© 2024 CreatorLens AI. Empowering visionaries.</p>
+        <p className="text-xs text-gray-400 mb-2">© 2024 KREASIA. Empowering visionaries.</p>
         <div className="flex items-center justify-center gap-3 text-xs text-gray-400">
           <a href="#" className="hover:text-purple-600 transition-colors">Syarat & Ketentuan</a>
           <span>·</span>

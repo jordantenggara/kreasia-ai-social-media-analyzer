@@ -20,7 +20,7 @@ export default function DashboardLayout() {
             <div className="w-7 h-7 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Zap className="w-3.5 h-3.5 text-white" />
             </div>
-            <span className="font-bold text-gray-900 text-sm">CreatorLens AI</span>
+            <span className="font-bold text-gray-900 text-sm">KREASIA</span>
           </div>
           <p className="text-xs text-gray-400 mt-1 ml-0.5">Creator Workspace</p>
         </div>

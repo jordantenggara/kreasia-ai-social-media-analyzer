@@ -228,7 +228,7 @@ export default function AIAssistant() {
           </button>
         </div>
         <p className="text-center text-xs text-gray-400 mt-2">
-          CreatorLens Assistant dapat membuat kesalahan. Periksa kembali rekomendasi penting.
+          KREASIA Assistant dapat membuat kesalahan. Periksa kembali rekomendasi penting.
         </p>
       </div>
     </div>

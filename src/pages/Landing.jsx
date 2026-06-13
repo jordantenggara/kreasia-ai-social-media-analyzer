@@ -46,7 +46,7 @@ export default function Landing() {
           <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
             <Zap className="w-4 h-4 text-white" />
           </div>
-          <span className="font-bold text-gray-900 text-lg">CreatorLens AI</span>
+          <span className="font-bold text-gray-900 text-lg">KREASIA</span>
         </div>
         <div className="flex items-center gap-3">
           <button
@@ -181,7 +181,7 @@ export default function Landing() {
       <section className="py-16 px-8 bg-lavender-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Bagaimana CreatorLens AI Bekerja</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-3">Bagaimana KREASIA Bekerja</h2>
             <p className="text-gray-500">Hanya butuh beberapa menit untuk mulai mengoptimalkan konten Anda.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -227,8 +227,8 @@ export default function Landing() {
       <footer className="bg-white border-t border-gray-100 py-8 px-8">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <p className="font-bold text-gray-800">CreatorLens AI</p>
-            <p className="text-xs text-gray-400 mt-1">© 2024 CreatorLens AI. Empowering Analyzers.</p>
+            <p className="font-bold text-gray-800">KREASIA</p>
+            <p className="text-xs text-gray-400 mt-1">© 2024 KREASIA. Empowering Analyzers.</p>
           </div>
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-purple-600 transition-colors">Privacy Policy</a>

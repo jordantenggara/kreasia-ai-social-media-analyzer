@@ -26,7 +26,7 @@ export const buildInsightPrompt = (summary) => {
     .map(t => `- Tipe: ${t.contentType}, Total Post: ${t.count}, Avg Views: ${t.avgViews}, Avg ER: ${t.avgEngagementRate}%`)
     .join("\n");
 
-  return `Kamu adalah AI Insight Engine untuk CreatorLens AI. Tugasmu adalah memberikan analisis mendalam, saran strategi, dan rekomendasi pertumbuhan konten sosial media yang konkret untuk UMKM dan kreator kecil di Indonesia.
+  return `Kamu adalah AI Insight Engine untuk KREASIA. Tugasmu adalah memberikan analisis mendalam, saran strategi, dan rekomendasi pertumbuhan konten sosial media yang konkret untuk UMKM dan kreator kecil di Indonesia.
 
 Berikut adalah Ringkasan Data Performa Akun (30 hari terakhir):
 - Total Postingan dianalisis: ${totalPosts}
@@ -79,7 +79,7 @@ Ketentuan: Jumlah rekomendasi dalam array harus tepat 3. Seluruh bahasa dalam JS
  */
 export const buildAssistantSystemPrompt = (summary) => {
   if (!summary) {
-    return `Kamu adalah Creator Assistant dari CreatorLens AI, asisten strategis sosial media untuk UMKM dan kreator kecil di Indonesia. Jawab pertanyaan dengan ramah, profesional, konkret, dan actionable dalam bahasa Indonesia.`;
+    return `Kamu adalah Creator Assistant dari KREASIA, asisten strategis sosial media untuk UMKM dan kreator kecil di Indonesia. Jawab pertanyaan dengan ramah, profesional, konkret, dan actionable dalam bahasa Indonesia.`;
   }
 
   const {
@@ -91,7 +91,7 @@ export const buildAssistantSystemPrompt = (summary) => {
     bestPost
   } = summary;
 
-  return `Kamu adalah Creator Assistant dari CreatorLens AI, seorang asisten strategis sosial media yang ahli di bidang konten media sosial untuk UMKM (Usaha Mikro, Kecil, Menengah) dan small creators di Indonesia. 
+  return `Kamu adalah Creator Assistant dari KREASIA, seorang asisten strategis sosial media yang ahli di bidang konten media sosial untuk UMKM (Usaha Mikro, Kecil, Menengah) dan small creators di Indonesia. 
 
 Tugasmu adalah membantu pengguna menyusun strategi konten, membuat caption/hook viral, dan menjawab pertanyaan seputar pertumbuhan media sosial berdasarkan data performa akun mereka yang sesungguhnya.
 

@@ -72,7 +72,7 @@ export default function Settings() {
         {/* Page Title */}
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Settings</h1>
-          <p className="text-sm text-gray-400 mt-1">Manage your workspace configuration and preferences for CreatorLens AI.</p>
+          <p className="text-sm text-gray-400 mt-1">Manage your workspace configuration and preferences for KREASIA.</p>
         </div>
 
         {/* API Configuration */}
@@ -241,7 +241,7 @@ export default function Settings() {
         <div className="bg-lavender-100 border border-purple-100 rounded-2xl p-6">
           <h3 className="text-lg font-bold text-purple-700 mb-2">Power up your workflow</h3>
           <p className="text-sm text-gray-600 leading-relaxed mb-4">
-            Explore the documentation to find out how to integrate CreatorLens with your existing content pipeline.
+            Explore the documentation to find out how to integrate KREASIA with your existing content pipeline.
           </p>
           <a
             href="https://aistudio.google.com/app/apikey"
@@ -258,8 +258,8 @@ export default function Settings() {
       <footer className="mt-8 px-8 py-5 border-t border-gray-100 bg-white">
         <div className="flex items-center justify-between">
           <div>
-            <p className="font-semibold text-gray-800 text-sm">CreatorLens AI</p>
-            <p className="text-xs text-gray-400 mt-0.5">© 2024 CreatorLens AI. Empowering Visionary Creators.</p>
+            <p className="font-semibold text-gray-800 text-sm">KREASIA</p>
+            <p className="text-xs text-gray-400 mt-0.5">© 2024 KREASIA. Empowering Visionary Creators.</p>
           </div>
           <div className="flex items-center gap-5 text-xs text-gray-400">
             <a href="#" className="hover:text-purple-600 transition-colors">Privacy Policy</a>
