@@ -1,6 +1,6 @@
-# CreatorLens AI
+# Kreasia AI
 
-**CreatorLens AI** adalah asisten analisis performa media sosial berbasis kecerdasan buatan yang dirancang khusus untuk pelaku UMKM (*Usaha Mikro, Kecil, Menengah*) dan kreator konten kecil di Indonesia.
+**Kreasia AI** adalah asisten analisis performa media sosial berbasis kecerdasan buatan yang dirancang khusus untuk pelaku UMKM (*Usaha Mikro, Kecil, Menengah*) dan kreator konten kecil di Indonesia.
 
 Aplikasi ini membantu pengguna menganalisis performa postingan Instagram & TikTok secara lokal, merumuskan metrik kinerja utama secara instan, serta menyusun narasi insight dan strategi konten lanjutan yang didukung oleh **Gemini AI API**.
 
